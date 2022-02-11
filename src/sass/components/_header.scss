@@ -1,3 +1,22 @@
 .main-container {
-    
+    position: relative;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-options {
+    position: absolute;
+    width: 100%;
+    ul {
+        background: #efefef;
+        list-style-type: none;
+        min-height: 100vh;
+        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.096);
+        padding: 0;
+        margin: 0;
+        width: 80%;
+    }
 }
