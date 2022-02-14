@@ -9,9 +9,9 @@ const Hero = () => {
         <span>Front-end developer</span>
       </div>
       <div className="buttons-cont">
-        <button>Download CV</button>
-        <button>About me</button>
-      </div>
+          <button>Download CV</button>
+          <button>About me</button>
+        </div>
     </div>
   );
 };

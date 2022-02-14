@@ -5,18 +5,51 @@
 .menu-container {
     display: flex;
     justify-content: space-between;
+    h1 {
+        margin: 0;
+        margin-top: 27px;
+        margin-left: 20px;
+    }
+}
+
+.burger-button {
+    padding-right: 5px;
+    padding-top: 15px;
 }
 
 .menu-options {
     position: absolute;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    transition: transform 0.2s ease-in-out;
+    transform: translate(0,-100%);
     ul {
         background: #efefef;
         list-style-type: none;
-        min-height: 100vh;
-        box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.096);
+        min-height: 280px;
+        box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.096);
         padding: 0;
         margin: 0;
-        width: 80%;
+        width: 100%;
+        padding-top: 90px;
+        text-align: center;
     }
+    li {
+        font-size: 17px;
+        margin: 17px 0;
+    }
+}
+
+.show {
+    transform: translate(0,0);
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after  {
+    width: 25px;
+    height: 3px;
+}
+
+.hamburger-box {
+    width: 25px;
 }

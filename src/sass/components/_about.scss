@@ -1,0 +1,31 @@
+.about-container {
+    background: url("../../images/wave\ \(1\).svg");
+    background-repeat: no-repeat;
+    background-size: 1200px;
+    background-position: top center;
+    margin-top: -2px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 80px;
+    h3 {
+        font-size: 19px;
+        text-align: center;
+    }
+}
+
+.my-description {
+    text-align: center;
+}
+
+.information-container {
+    margin-top: 80px;
+    padding: 20px;
+    padding-top: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px 5px rgba(0, 0, 0, 0.075);
+    li {
+        text-transform: uppercase;
+    }
+}
