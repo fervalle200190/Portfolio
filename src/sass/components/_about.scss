@@ -38,3 +38,22 @@
     max-width: 375px;
     margin: auto;
 }
+
+@media screen and (min-width: 950px) {
+    .about-container {
+        background-size: cover;
+    }
+    .inner-about {
+        max-width: 700px;
+    }
+    .information-container {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            width: 300px;
+        }
+        li {
+            width: 150px;
+        }
+    }
+}

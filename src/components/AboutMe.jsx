@@ -19,6 +19,7 @@ const AboutMe = () => {
             <li>javascript</li>
             <li>reactjs</li>
             <li>git / github</li>
+            <li>scss</li>
           </ul>
         </div>
       </div>

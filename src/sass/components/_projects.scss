@@ -1,5 +1,7 @@
 .projects-container {
     padding: 0 30px;
+    max-width: 400px;
+    margin: auto;
     h4 {
         font-size: 1.2rem;
         text-align: center;
@@ -20,5 +22,25 @@
     }
     img {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .projects-container {
+        max-width: 1200px;
+    }
+    .inner-projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .project-cont {
+        max-width: 330px;
+        transition: transform 0.2s ease-out;
+        cursor: pointer;
+    }
+    .project-cont:hover {
+        transform: scale(1.05);
     }
 }
