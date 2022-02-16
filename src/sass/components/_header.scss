@@ -15,6 +15,9 @@
 .burger-button {
     padding-right: 5px;
     padding-top: 15px;
+    button {
+        -webkit-tap-highlight-color: transparent;
+    }
 }
 
 .menu-options {

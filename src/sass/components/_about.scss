@@ -11,11 +11,15 @@
     h3 {
         font-size: 19px;
         text-align: center;
+        margin-bottom: 0px;
     }
 }
 
 .my-description {
     text-align: center;
+    p {
+        margin-top: 3px;
+    }
 }
 
 .information-container {
@@ -28,4 +32,9 @@
     li {
         text-transform: uppercase;
     }
+}
+
+.inner-about {
+    max-width: 375px;
+    margin: auto;
 }
