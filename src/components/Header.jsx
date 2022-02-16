@@ -21,10 +21,10 @@ const Header = () => {
         </div>
         <div className={`menu-options ${menu}`}>
           <ul>
-            <li>Home</li>
-            <li>About me</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutme">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
         <div className="dark-switch">

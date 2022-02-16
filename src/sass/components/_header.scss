@@ -2,6 +2,15 @@
     position: relative;
 }
 
+.header-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    padding-bottom: 20px;
+    z-index: 100;
+}
+
 .menu-container {
     display: flex;
     justify-content: space-between;
@@ -44,6 +53,10 @@
         font-size: 17px;
         margin: 17px 0;
         cursor: pointer;
+    }
+    a {
+        text-decoration: none;
+        color: #000;
     }
 }
 

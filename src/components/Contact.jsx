@@ -28,8 +28,12 @@ const Contact = () => {
     setForm(initialForm);
   };
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <h6>Contact</h6>
+      <p className="contact-detail">
+        If you want to get in touch with me you can either email me at
+        fervalle200190@gmail.com or fill out this form:
+      </p>
       <form onSubmit={handleSubmit}>
         <input
           type="email"
