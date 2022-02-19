@@ -22,8 +22,12 @@
         border-radius: 3px;
         font-weight: 500;
         background: #fff;
+        transition: background 0.1s ease-in;
         border: 1px solid #bbb;
         cursor: pointer;
+    }
+    button:hover {
+        background: #eee;
     }
 }
 

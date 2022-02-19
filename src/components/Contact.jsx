@@ -29,29 +29,30 @@ const Contact = () => {
   };
   return (
     <div className="contact-container" id="contact">
-      <h6>Contact</h6>
-      <p className="contact-detail">
-        If you want to get in touch with me you can either email me at
-        fervalle200190@gmail.com or fill out this form:
-      </p>
-      <form onSubmit={handleSubmit}>
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          value={form.email}
-          onChange={handleForm}
-        />
-        <textarea
-          name="message"
-          id=""
-          cols="30"
-          rows="10"
-          value={form.message}
-          onChange={handleForm}
-        ></textarea>
-        <input type="submit" />
-      </form>
+      <div className="inner-contact">
+        <h6>Contact</h6>
+        <p className="contact-detail">
+          If you want to get in touch with me you can either email me at
+          fervalle200190@gmail.com or fill out this form:
+        </p>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            value={form.email}
+            onChange={handleForm}
+          />
+          <textarea
+            name="message"
+            cols="30"
+            rows="10"
+            value={form.message}
+            onChange={handleForm}
+          ></textarea>
+          <input type="submit" />
+        </form>
+      </div>
     </div>
   );
 };

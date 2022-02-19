@@ -1,4 +1,5 @@
 import React from "react";
+import file from '../cv/resume.pdf'
 
 const Hero = () => {
   return (
@@ -9,7 +10,9 @@ const Hero = () => {
         <span>Front-end developer</span>
       </div>
       <div className="buttons-cont">
-        <button>Download CV</button>
+        <a download href={file}>
+          <button>Download CV</button>
+        </a>
         <a href="#aboutme">
           <button>About me</button>
         </a>
