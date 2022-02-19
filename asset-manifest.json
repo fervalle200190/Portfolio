@@ -1,15 +1,24 @@
 {
   "files": {
-    "main.css": "/E-commerce-product-page/static/css/main.2c810855.css",
-    "main.js": "/E-commerce-product-page/static/js/main.f9e83c1d.js",
-    "static/js/787.cfd8f164.chunk.js": "/E-commerce-product-page/static/js/787.cfd8f164.chunk.js",
-    "index.html": "/E-commerce-product-page/index.html",
-    "main.2c810855.css.map": "/E-commerce-product-page/static/css/main.2c810855.css.map",
-    "main.f9e83c1d.js.map": "/E-commerce-product-page/static/js/main.f9e83c1d.js.map",
-    "787.cfd8f164.chunk.js.map": "/E-commerce-product-page/static/js/787.cfd8f164.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.b1080a2a.css",
+    "main.js": "/Portfolio/static/js/main.7a7daed2.js",
+    "static/js/787.cfd8f164.chunk.js": "/Portfolio/static/js/787.cfd8f164.chunk.js",
+    "static/media/space-app.jpg": "/Portfolio/static/media/space-app.c147a66fed99702ad6c7.jpg",
+    "static/media/rest-countries.jpg": "/Portfolio/static/media/rest-countries.15537bab8429c0a4a44f.jpg",
+    "static/media/e-commerce.jpg": "/Portfolio/static/media/e-commerce.cb3bf12fef39fc44b28a.jpg",
+    "static/media/Blogr.jpg": "/Portfolio/static/media/Blogr.75734a69e46613e429ca.jpg",
+    "static/media/tip calculator.jpg": "/Portfolio/static/media/tip calculator.5a76b022bae51ed36e00.jpg",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.d5c5545cecc693546bc7.pdf",
+    "index.html": "/Portfolio/index.html",
+    "static/media/wave.svg": "/Portfolio/static/media/wave.9e06221fb06ee66f81c3.svg",
+    "static/media/waveFooter.svg": "/Portfolio/static/media/waveFooter.302d89dddbc1187c73de.svg",
+    "static/media/wave (1).svg": "/Portfolio/static/media/wave (1).a419f14490a258883af0.svg",
+    "main.b1080a2a.css.map": "/Portfolio/static/css/main.b1080a2a.css.map",
+    "main.7a7daed2.js.map": "/Portfolio/static/js/main.7a7daed2.js.map",
+    "787.cfd8f164.chunk.js.map": "/Portfolio/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c810855.css",
-    "static/js/main.f9e83c1d.js"
+    "static/css/main.b1080a2a.css",
+    "static/js/main.7a7daed2.js"
   ]
 }
